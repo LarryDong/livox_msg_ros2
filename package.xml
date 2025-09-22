@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>livox_ros_driver2</name>
+  <version>0.0.1</version>
+  <description>Message-only shim for livox_ros_driver2/CustomMsg (rosbag2 playback).</description>
+
+  <maintainer email="you@example.com">you</maintainer>
+  <license>BSD-3-Clause</license>
+
+  <!-- 构建工具 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 生成消息所需 -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <!-- 若 Custom*.msg 直接/间接用到 Time/Duration（比如 Header），务必加上 -->
+  <build_depend>builtin_interfaces</build_depend>
+
+  <!-- 运行时所需（生成后的类型支持） -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
