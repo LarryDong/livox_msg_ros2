@@ -1,5 +1,5 @@
 
-# Compile livox_ros_driver2's CustomMsg
+# Compile livox_ros_driver CustomMsg
 
 
 ```bash

@@ -2,7 +2,7 @@
 <package format="3">
   <name>livox_ros_driver2</name>
   <version>0.0.1</version>
-  <description>Message-only shim for livox_ros_driver2/CustomMsg (rosbag2 playback).</description>
+  <description>Message-only shim for livox_ros_driver/CustomMsg (rosbag2 playback).</description>
 
   <maintainer email="you@example.com">you</maintainer>
   <license>BSD-3-Clause</license>
